@@ -1,5 +1,5 @@
 import React from "react";
-import * as BooksAPI from './BooksAPI';
+// import * as BooksAPI from './BooksAPI';
 
 class SearchBooksWrapper extends React.Component {
 
@@ -7,8 +7,8 @@ class SearchBooksWrapper extends React.Component {
    
   render() {
 
-      const {updateQuery,state} = this.props
-      console.log(state)
+      const {updateQuery} = this.props
+      // console.log(state)
     return (
         <div className="search-books-input-wrapper">
           <input
@@ -22,4 +22,4 @@ class SearchBooksWrapper extends React.Component {
   }
 }
 
-export default SearchBooksWrapper;
+export default SearchBooksWrapper
